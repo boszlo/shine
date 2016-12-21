@@ -1,7 +1,7 @@
 var app = angular.module('customers', []);
 
 app.controller("CustomerSearchController", [
-  "$scope", "$http",
+          "$scope", "$http",
   function($scope, $http) {
     
     $scope.customers = [];
